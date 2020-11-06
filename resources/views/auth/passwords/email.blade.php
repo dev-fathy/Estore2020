@@ -3,18 +3,23 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
+        <div class="col-md-15">
 
-                <div class="card-body">
+        <center>
+                    <h3 class="login-address">{{ __('Reset Password') }}</h3>
+                </center>
+                <br />
+
+
+
+
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
                     @endif
 
-                    <form method="POST" action="{{ route('password.email') }}">
+                    <form class="log  center-block" method="POST" action="{{ route('password.email') }}">
                         @csrf
 
                         <div class="form-group row">
@@ -31,16 +36,14 @@
                             </div>
                         </div>
 
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+
+                                <button type="submit" class="btn btn-primary col-lg-12">
                                     {{ __('Send Password Reset Link') }}
                                 </button>
-                            </div>
-                        </div>
+
                     </form>
-                </div>
-            </div>
+
+
         </div>
     </div>
 </div>
