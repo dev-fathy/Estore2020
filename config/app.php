@@ -54,7 +54,7 @@ return [
 
     'url' => env('APP_URL', 'http://estore2020.herokuapp.com/'),
 
-    'asset_url' => env('ASSET_URL', 'http://estore2020.herokuapp.com/resources/assets'),
+    'asset_url' => env('ASSET_URL', 'http://estore2020.herokuapp.com'),
 
     /*
     |--------------------------------------------------------------------------
