@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\User;
+use App\ContactUs;
+use App\Products;
 
 class Admin extends Controller
 {
@@ -39,6 +41,42 @@ class Admin extends Controller
         // end of " This belongs to Admin area "
 
         return view('admin.all_users',['all_users' => $all_users ]);
+    }
+
+    public function all_messages()
+    {
+
+        // This belongs to Admin area
+        $all_messages = ContactUs::all();
+
+        // end of " This belongs to Admin area "
+
+        return view('admin.all_messages',['all_messages' => $all_messages]);
+    }
+
+    public function product($id)
+    {
+
+        $product = Products::where('id', $id)->get();
+
+        $pr_array = array(
+            'id' => $product[0]["id"],
+            'name' => $product[0]["product_name"],
+            'price' => $product[0]["product_price"],
+            'image' => $product[0]["product_image"],
+            'SKE' => $product[0]["SKE"],
+        );
+
+
+        // print_r($pr_array['name']);
+        // die();
+
+
+
+        return view('products.product',['product' => $pr_array ]);
+
+
+
     }
 
 }

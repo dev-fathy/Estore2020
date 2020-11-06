@@ -52,7 +52,9 @@ class ProductController extends Controller
             'photo' => 'required|image|max:2048',
             'price' => 'required',
         ]);
+
         $cover = $request->photo;
+
         $extension = $cover->getClientOriginalExtension();
         Storage::disk('public')->put($cover->getFilename() . '.' . $extension,  File::get($cover));
         $SKE = random_int(0, 100000000);
@@ -64,7 +66,7 @@ class ProductController extends Controller
         $product->SKE = $SKE;
         $product->save();
 
-        return redirect()->route('products.show')
+        return redirect()->route('products.index')
             ->with('success', 'Book added successfully...');
     }
 
@@ -74,11 +76,13 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show()
+    public function show($id)
     {
         //
 
     }
+
+
 
     /**
      * Show the form for editing the specified resource.
@@ -86,10 +90,10 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Products $product)
     {
         //
-        echo 'edit';
+        return view('products.edit',['product' => $product]);
     }
 
     /**
@@ -99,9 +103,26 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Products $product)
     {
-        //
+
+        $cover = $request->photo;
+
+        
+        dd($cover); 
+        die();       
+
+        $extension = $cover->getClientMimeType();
+        Storage::disk('public')->put($cover->getFilename() . '.' . $extension,  File::get($cover));
+
+
+        $product->product_name = $request->name;
+        $product->product_image = $request->price;
+        $product->product_price = $cover->getFilename() . '.' . $extension;
+        $product->update();
+
+        return redirect()->url('product/show/'.$product->id)->withStatus(__('Product successfully updated!'));
+
     }
 
     /**
@@ -110,8 +131,13 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Request $request,Products $product)
     {
         //
+
+        $product->delete();
+
+        return redirect()->route('products.index')->withStatus(__('Plan successfully deleted!'));
+
     }
 }

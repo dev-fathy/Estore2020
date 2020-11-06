@@ -36,4 +36,15 @@ Route::get('admin/logout', function(){
 
 Route::resource('products', ProductController::class);
 
-Route::get('projects/display','Users@display_products');
+Route::get('display/product','Users@display_products');
+
+
+Route::get('/contact-us', 'ContactUsController@contactUs')->name('contactUs');
+Route::post('/insert_messages', 'ContactUsController@insert_messages');
+Route::get('/all_messages', 'Admin@all_messages');
+
+Route::get('product/show/{token}', 'Admin@product');
+
+Route::get('add/card/{token}', 'Users@card_get');
+Route::post('add/card/{token}', 'Users@card_post');
+

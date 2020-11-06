@@ -12,3 +12,12 @@
    $('#welcomeText').slideUp(3000);
 });
 </script>
+
+<script>
+$('.carousel').carousel({
+  interval: 2000
+})
+</script>
+
+<script type="text/javascript">jssor_1_slider_init();
+    </script>

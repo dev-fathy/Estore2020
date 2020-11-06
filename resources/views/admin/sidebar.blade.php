@@ -10,7 +10,9 @@
               <li><a href="{{url('/admin/home')}}" target="_self">Home</span></a></li>
               <li><a href="{{url('view/users')}}" target="_self">Users</span></a></li>
               <li><a href="{{url('products')}}" target="_self">Products</span></a></li>
-
+              <li><a href="{{url('/all_messages')}}" target="_self">User Messages</span></a></li>
+          </ul>
+          <ul class="sidebar-nav logoutAdmin" id="sidebar">
               <li>
                   <a class="logOut" href="{{ url('admin/logout') }}">
                       {{ __('Logout') }}

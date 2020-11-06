@@ -25,8 +25,7 @@
                             <bold>Price</bold> : {{$product->product_price}} L.E
                         </li>
                     </ul>
-                    <a href="order.html" class="btn btn-primary" target="_self" role="button">Add to Card</a>
-                    <a href="order.html" class="btn btn-warning" target="_self" role="button">view Product</a></p>
+                    <a href="{{url('product/show/'.$product->id)}}" class="btn btn-warning" target="_self" role="button">view Product</a></p>
                 </div><!-- end of caption -->
 
             </div> <!-- end of Thumbnail -->
