@@ -35,7 +35,7 @@
         <div class="row">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="{{ config('app.asset_url') }}/img/view-product.jpg" alt="Watches">
+                    <img src="{{ config('app.asset_url') }}img/view-product.jpg" alt="Watches">
                     <div class="caption">
                         <h3>Explore Products</h3>
                         <p>Here you can easily view a marvellous products</p>
@@ -92,14 +92,3 @@
 
 
 
-<!-- <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="{{ config('app.asset_url') }}/img/iphone-cases-unique.jpg" alt="Iphone Covers">
-                    <button class="covers-btn view-btn btn-primary">view</button>
-                    <div class="caption">
-                        <h3>Mobile Covers</h3>
-                        <p>you can buy Mobile Covers from here in best selling</p>
-                        <p><a href="{{url('covers')}}" class="btn btn-primary" role="button">View</a></p>
-                    </div>
-                </div>
-            </div> -->

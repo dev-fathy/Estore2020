@@ -1,4 +1,4 @@
-<script src="{{ config('app.asset_url') }}/js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+<script src="{{ config('app.asset_url') }}js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         window.jssor_1_slider_init = function() {
 

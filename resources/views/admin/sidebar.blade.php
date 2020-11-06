@@ -2,7 +2,7 @@
       <!-- Sidebar -->
       <div id="sidebar-wrapper">
 
-          <img class="sidebar-nav" src="{{ config('app.asset_url') }}/img/logo.png">
+          <img class="sidebar-nav" src="{{ config('app.asset_url') }}img/logo.png">
           <ul id="sidebar_menu" class="sidebar-nav">
               <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
           </ul>

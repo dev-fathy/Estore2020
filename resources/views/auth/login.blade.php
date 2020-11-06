@@ -67,7 +67,7 @@
                 </form>
             </div>
             <div class="col-md-6 ph">
-                <img src="{{ config('app.asset_url') }}/img/12.jpg" class="loginph" alt="Login">
+                <img src="{{ config('app.asset_url') }}img/12.jpg" class="loginph" alt="Login">
             </div>
         </div>
     </div>

@@ -11,7 +11,7 @@
 
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="{{ config('app.asset_url') }}/img/12.jpg" alt="Home">
+                <img src="{{ config('app.asset_url') }}img/12.jpg" alt="Home">
                 <div class="caption">
                     <ul class="list-unstyled">
                     <h3>Home Page</h3>
@@ -25,7 +25,7 @@
 
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="{{ config('app.asset_url') }}/img/view-product.jpg" alt="Home">
+                <img src="{{ config('app.asset_url') }}img/view-product.jpg" alt="Home">
                 <div class="caption">
                     <ul class="list-unstyled">
                     <h3>Products</h3>
@@ -40,7 +40,7 @@
 
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="{{ config('app.asset_url') }}/img/customer.png" alt="Home">
+                <img src="{{ config('app.asset_url') }}img/customer.png" alt="Home">
                 <div class="caption">
                     <ul class="list-unstyled">
                     <h3>View Customers</h3>
