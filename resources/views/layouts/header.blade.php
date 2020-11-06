@@ -13,7 +13,7 @@
     <title>Home</title>
 
     <!-- Bootstrap -->
-    <link href="{{ config('app.asset_url') }}/resources/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../..//assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ config('app.asset_url') }}/resources/assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ config('app.asset_url') }}/resources/assets/fontawesome/css/font-awesome.min.css">
 
