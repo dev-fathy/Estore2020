@@ -10,4 +10,8 @@ class Products extends Model
         'product_name', 'product_image','product_price', 'SKE',
     ];
 
+
+    public function category() {
+        return $this->belongsTo('App\Category');
+    }
 }

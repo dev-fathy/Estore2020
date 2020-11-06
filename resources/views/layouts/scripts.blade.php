@@ -21,3 +21,19 @@ $('.carousel').carousel({
 
 <script type="text/javascript">jssor_1_slider_init();
     </script>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+          $('.edit-category').on('click', function() {
+            var id = $(this).data('id');
+            var name = $(this).data('name');
+            var url = "{{ url('category') }}/" + id;
+
+            $('#editCategoryModal form').attr('action', url);
+            $('#editCategoryModal form input[name="name"]').val(name);
+          });
+        </script>

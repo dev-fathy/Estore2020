@@ -48,3 +48,6 @@ Route::get('product/show/{token}', 'Admin@product');
 Route::get('add/card/{token}', 'Users@card_get');
 Route::post('add/card/{token}', 'Users@card_post');
 
+Route::resource('category', 'CategoryController');
+
+
