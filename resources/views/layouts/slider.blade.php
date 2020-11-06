@@ -132,18 +132,18 @@
                 </text>
             </mask>
             <mask id="jssor_1_msk_9">
-                <image data-load="href" width="980" height="380" x="0" y="0" style="position:absolute;max-width:980px;" href="{{ config('app.asset_url') }}/img/slider/makeup-mask.png"></image>
+                <image data-load="href" width="980" height="380" x="0" y="0" style="position:absolute;max-width:980px;" href="{{ config('app.asset_url') }}img/slider/makeup-mask.png"></image>
             </mask>
         </defs>
     </svg>
     <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
         <!-- Loading Screen -->
         <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="{{ config('app.asset_url') }}/img/slider/spin.svg" />
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="{{ config('app.asset_url') }}img/slider/spin.svg" />
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
             <div data-p="680">
-                <img data-u="image" src="{{ config('app.asset_url') }}/img/slider/moisture.jpg" />
+                <img data-u="image" src="{{ config('app.asset_url') }}img/slider/moisture.jpg" />
                 <div data-to="50% 50%" data-ts="flat" data-p="680" data-po="80% 50%" data-t="0" style="left:0px;top:0px;width:980px;height:380px;position:absolute;">
                     <div data-to="50% 80%" data-ts="preserve-3d" data-arr="1" style="left:480px;top:85px;width:300px;height:48px;position:absolute;opacity:0;color:#99958a;font-size:38px;line-height:1.2;letter-spacing:0.1em;">MOISTURE</div>
                     <div data-to="50% 80%" data-ts="preserve-3d" data-arr="2" style="left:495px;top:165px;width:350px;height:26px;position:absolute;opacity:0;color:#4d4b45;font-size:22px;line-height:1.2;letter-spacing:0.2em;text-align:center;">whitening &amp; moisturizing</div>
@@ -151,11 +151,11 @@
                 </div>
             </div>
             <div data-p="680">
-                <img data-u="image" src="{{ config('app.asset_url') }}/img/slider/juice.jpg" />
-                <img data-to="50% 50%" data-t="4" style="left:595px;top:-267px;width:271px;height:266px;position:absolute;max-width:271px;" src="{{ config('app.asset_url') }}/img/slider/juce-pomegranate.png" />
+                <img data-u="image" src="{{ config('app.asset_url') }}img/slider/juice.jpg" />
+                <img data-to="50% 50%" data-t="4" style="left:595px;top:-267px;width:271px;height:266px;position:absolute;max-width:271px;" src="{{ config('app.asset_url') }}img/slider/juce-pomegranate.png" />
                 <svg viewbox="0 0 52 31" width="52" height="31" data-tchd="jssor_1_msk_2" style="left:766px;top:322px;display:block;position:absolute;overflow:visible;">
                     <g fill="rgb(0, 0, 0)" stroke="none" stroke-width="1" mask="url(#jssor_1_msk_2)">
-                        <image data-load="href" width="63" height="20" filter="url(#jssor_1_flt_1)" x="-20" y="10" data-t="6" data-tsep="jssor_1_gbl_1" style="position:absolute;opacity:0;max-width:63px;" href="{{ config('app.asset_url') }}/img/slider/juce-pomegranate-shadow.png"></image>
+                        <image data-load="href" width="63" height="20" filter="url(#jssor_1_flt_1)" x="-20" y="10" data-t="6" data-tsep="jssor_1_gbl_1" style="position:absolute;opacity:0;max-width:63px;" href="{{ config('app.asset_url') }}img/slider/juce-pomegranate-shadow.png"></image>
                     </g>
                 </svg>
                 <svg viewbox="0 0 350 100" data-to="50% 50%" width="350" height="100" data-t="7" style="left:72px;top:100px;display:block;position:absolute;font-family:Arial,Helvetica,sans-serif;font-size:130px;font-weight:900;overflow:visible;">
@@ -167,7 +167,7 @@
                         <path fill="#b10626" d="M260,0L260,130L0,130L0,0Z" x="0" y="0" style="position:absolute;overflow:visible;"></path>
                         <svg viewbox="0 0 260 130" data-ts="preserve-3d" x="0" y="0" width="260" height="130" style="position:absolute;overflow:visible;">
                             <g filter="url(#jssor_1_flt_3)">
-                                <image data-load="href" width="370" height="100" x="-66" y="35" style="position:absolute;max-width:370px;" href="{{ config('app.asset_url') }}/img/slider/fruit-splash.png"></image>
+                                <image data-load="href" width="370" height="100" x="-66" y="35" style="position:absolute;max-width:370px;" href="{{ config('app.asset_url') }}img/slider/fruit-splash.png"></image>
                                 <path data-to="25px -30px" filter="url(#jssor_1_flt_4)" fill="#d55a7d" d="M-5-30C-5-46.56854 8.43146-60 25-60C41.56854-60 55-46.56854 55-30C55-13.43146 41.56854,0 25,0C8.43146,0 -5-13.43146 -5-30Z" x="-5" y="-60" data-t="8" style="position:absolute;opacity:0.4;overflow:visible;"></path>
                                 <path data-to="94px -20px" filter="url(#jssor_1_flt_5)" fill="#d55a7d" d="M54-20C54-42.09139 71.90861-60 94-60C116.09139-60 134-42.09139 134-20C134,2.09139 116.09139,20 94,20C71.90861,20 54,2.09139 54-20Z" x="54" y="-60" data-t="9" style="position:absolute;opacity:0.4;overflow:visible;"></path>
                                 <path data-to="200px -10px" filter="url(#jssor_1_flt_6)" fill="#d55a7d" d="M150-10C150-37.61424 172.38576-60 200-60C227.61424-60 250-37.61424 250-10C250,17.61424 227.61424,40 200,40C172.38576,40 150,17.61424 150-10Z" x="150" y="-60" data-t="10" style="position:absolute;opacity:0.4;overflow:visible;"></path>
@@ -177,7 +177,7 @@
                 </svg>
             </div>
             <div data-p="680">
-                <img data-u="image" src="{{ config('app.asset_url') }}/img/slider/makeup.jpg" />
+                <img data-u="image" src="{{ config('app.asset_url') }}img/slider/makeup.jpg" />
                 <div data-to="50% 50%" data-ts="preserve-3d" data-t="13" style="left:505px;top:83px;width:400px;height:150px;position:absolute;mix-blend-mode:color-dodge;">
                     <div data-to="50% 50%" data-ts="preserve-3d" data-t="15" data-arr="14" style="left:46px;top:15px;width:339px;height:40px;position:absolute;opacity:0;color:#0d0800;font-size:20px;line-height:2;letter-spacing:0.08em;padding:0px 0px 0px 10px;box-sizing:border-box;background-color:#bf7c00;background-clip:padding-box;">Definite beauty defining you</div>
                     <div data-to="50% 50%" data-ts="preserve-3d" data-t="17" data-arr="16" style="left:16px;top:95px;width:339px;height:40px;position:absolute;opacity:0;color:#0d0800;font-size:20px;line-height:2;letter-spacing:0.1em;padding:0px 0px 0px 10px;box-sizing:border-box;background-color:#bf7c00;background-clip:padding-box;">Make up to a twisting trend</div>
@@ -186,14 +186,14 @@
                     <g>
                         <svg viewbox="0 0 980 380" data-ts="preserve-3d" x="0" y="0" width="980" height="380" data-tchd="jssor_1_msk_9" style="position:absolute;overflow:visible;">
                             <g mask="url(#jssor_1_msk_9)">
-                                <image data-load="href" width="980" height="380" data-to="484.0px 428.0px" x="-6" y="10" data-t="18" style="position:absolute;opacity:0;max-width:980px;" href="{{ config('app.asset_url') }}/img/slider/makeup-items.png"></image>
-                                <image data-load="href" width="96" height="45" data-to="423px 366px" x="375" y="344" data-t="19" style="position:absolute;opacity:0;max-width:96px;" href="{{ config('app.asset_url') }}/img/slider/makeup-lipstick-1.png"></image>
-                                <image data-load="href" width="98" height="86" data-to="424px 387px" x="375" y="344" data-t="20" style="position:absolute;opacity:0;max-width:98px;" href="{{ config('app.asset_url') }}/img/slider/makeup-lipstick-2.png"></image>
-                                <image data-load="href" width="101" height="122" data-to="425px 381px" x="375" y="320" data-t="21" style="position:absolute;opacity:0;max-width:101px;" href="{{ config('app.asset_url') }}/img/slider/makeup-lipstick-3.png"></image>
-                                <image data-load="href" width="52" height="77" data-to="482px 428px" x="456" y="390" data-t="22" style="position:absolute;opacity:0;max-width:52px;" href="{{ config('app.asset_url') }}/img/slider/makeup-lipstick-4.png"></image>
-                                <image data-load="href" width="23" height="18" data-to="497px 435px" x="486" y="426" data-t="23" style="position:absolute;opacity:0;max-width:23px;" href="{{ config('app.asset_url') }}/img/slider/makeup-petal-1.png"></image>
-                                <image data-load="href" width="19" height="19" data-to="502px 434px" x="493" y="425" data-t="24" style="position:absolute;opacity:0;max-width:19px;" href="{{ config('app.asset_url') }}/img/slider/makeup-petal-2.png"></image>
-                                <image data-load="href" width="15" height="18" data-to="514px 422px" x="507" y="413" data-t="25" style="position:absolute;opacity:0;max-width:15px;" href="{{ config('app.asset_url') }}/img/slider/makeup-petal-3.png"></image>
+                                <image data-load="href" width="980" height="380" data-to="484.0px 428.0px" x="-6" y="10" data-t="18" style="position:absolute;opacity:0;max-width:980px;" href="{{ config('app.asset_url') }}img/slider/makeup-items.png"></image>
+                                <image data-load="href" width="96" height="45" data-to="423px 366px" x="375" y="344" data-t="19" style="position:absolute;opacity:0;max-width:96px;" href="{{ config('app.asset_url') }}img/slider/makeup-lipstick-1.png"></image>
+                                <image data-load="href" width="98" height="86" data-to="424px 387px" x="375" y="344" data-t="20" style="position:absolute;opacity:0;max-width:98px;" href="{{ config('app.asset_url') }}img/slider/makeup-lipstick-2.png"></image>
+                                <image data-load="href" width="101" height="122" data-to="425px 381px" x="375" y="320" data-t="21" style="position:absolute;opacity:0;max-width:101px;" href="{{ config('app.asset_url') }}img/slider/makeup-lipstick-3.png"></image>
+                                <image data-load="href" width="52" height="77" data-to="482px 428px" x="456" y="390" data-t="22" style="position:absolute;opacity:0;max-width:52px;" href="{{ config('app.asset_url') }}img/slider/makeup-lipstick-4.png"></image>
+                                <image data-load="href" width="23" height="18" data-to="497px 435px" x="486" y="426" data-t="23" style="position:absolute;opacity:0;max-width:23px;" href="{{ config('app.asset_url') }}img/slider/makeup-petal-1.png"></image>
+                                <image data-load="href" width="19" height="19" data-to="502px 434px" x="493" y="425" data-t="24" style="position:absolute;opacity:0;max-width:19px;" href="{{ config('app.asset_url') }}img/slider/makeup-petal-2.png"></image>
+                                <image data-load="href" width="15" height="18" data-to="514px 422px" x="507" y="413" data-t="25" style="position:absolute;opacity:0;max-width:15px;" href="{{ config('app.asset_url') }}img/slider/makeup-petal-3.png"></image>
                             </g>
                         </svg>
                     </g>
