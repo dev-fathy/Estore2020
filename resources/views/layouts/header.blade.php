@@ -14,7 +14,6 @@
 
     <!-- Bootstrap -->
     <link href="{{ config('app.asset_url') }}css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ config('app.asset_url') }}css/app.css" rel="stylesheet">
     <link href="{{ config('app.asset_url') }}css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ config('app.asset_url') }}fontawesome/css/font-awesome.min.css">
 
